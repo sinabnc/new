@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <title>Glamo</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="{% static "css/swiper.min.css" %}">
+
+    <!-- Styles -->
+    <link href="https://fonts.cdnfonts.com/css/manhattan-script" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+                
+    <link rel="stylesheet" href="{% static "style.css" %}" >
+    <script src="js/custom.js"></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="header-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-10 col-lg-2 order-lg-1">
+                    <div class="site-branding">
+                        <div class="site-title">
+                            <a href="#"><img src="{% static "images/IMG_5027.jpg" %}"" alt="logo"></a>
+                        </div><!-- .site-title -->
+                    </div><!-- .site-branding -->
+                </div><!-- .col -->
+
+                <div class="col-2 col-lg-7 order-3 order-lg-2">
+                    <nav class="site-navigation">
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                        </ul>
+                    </nav><!-- .site-navigation -->
+                </div><!-- .col -->
+
+                <div class="col-lg-3 d-none d-lg-block order-2 order-lg-3">
+                    <div class="buy-tickets">
+                        <a class="btn gradient-bg" href="#footer">Contact</a>
+                    </div><!-- .buy-tickets -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container-fluid -->
+    </div><!-- .header-bar -->
+
+    <div class="swiper-container hero-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-date="2018/05/01" style="background: url('images/header6.jpg" %}"') no-repeat">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flex flex-column justify-content-center">
+                                <div class="entry-header">
+                                    
+
+                                    <h2 class="entry-title">Experience the Perfect . <br>Event with Us!</h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <a class="btn gradient-bg" href="#footer">Our Social</a>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .col -->
+                        </div><!-- .container -->
+                    </div><!-- .hero-content -->
+                </div><!-- .swiper-slide -->
+            </div><!-- .swiper-wrapper -->
+
+            <div class="swiper-slide" data-date="2019/05/01" style="background: url('images/header6.jpg') no-repeat">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flex flex-column justify-content-center">
+                                <div class="entry-header">
+                                    
+
+                                    <h2 class="entry-title">Elevate Your Moment.</h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <a class="btn gradient-bg" href="#footer">Our Social</a>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .col -->
+                        </div><!-- .container -->
+                    </div><!-- .hero-content -->
+                </div><!-- .swiper-slide -->
+            </div><!-- .swiper-wrapper -->
+
+            <div class="swiper-slide" data-date="2020/05/01" style="background: url('images/header6.jpg' ) no-repeat">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flex flex-column justify-content-center">
+                                <div class="entry-header">
+                                    
+                                    <h2 class="entry-title">Your Time, Our Promise</h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <a class="btn gradient-bg" href="#footer">Our Social</a>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .col -->
+                        </div><!-- .container -->
+                    </div><!-- .hero-content -->
+                </div><!-- .swiper-slide -->
+            </div><!-- .swiper-wrapper -->
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-next flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+        </div>
+
+        <div class="swiper-button-prev flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
+        </div>
+    </div><!-- .swiper-container -->
+</header><!-- .site-header -->
+
+<div class="homepage-info-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-5">
+                <figure>
+                    <img src="{% static "images/IMG_5027.jpg" %}"" alt="logo">
+                </figure>
+            </div>
+
+            <div class="col-12 col-md-8 col-lg-7">
+                <header class="entry-header">
+                    <h2 class="entry-title">Why Us?</h2>
+                </header>
+
+                <div class="entry-content">
+                    <p>we specialize in creating unforgettable events tailored to your needs. We take full responsibility, managing your time and stress by providing all the services you need for your event. With meticulous attention to detail, creative solutions, and exceptional service, we bring your vision to life.</p>
+                </div>
+
+                <footer class="entry-footer">
+                    <a href="#" class="btn gradient-bg">Read More</a>
+                    <a href="#" class="btn dark">Register Now</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="homepage-featured-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="featured-events-wrap flex flex-wrap justify-content-between">
+                    <div class="event-content-wrap positioning-event-1">
+                        <figure>
+                            <a href="#"><img src="{% static "images/Pathway.jpeg" %}"" alt="1"></a>
+                        </figure>
+
+                        <header class="entry-header">
+                            
+
+                            <div class="posted-date">August 25</div>
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-2">
+                        <figure>
+                            <a href="#"><img src="{% static "images/unique.jpeg" %}"" alt=""></a>
+                        </figure>
+
+                        <header class="entry-header">
+                        
+
+                            <div class="posted-date">November 28</div>
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-3">
+                        <figure>
+                            <a href="#"><img src="{% static "images/best wedding.jpeg" %}"" alt=""></a>
+                        </figure>
+
+                        <header class="entry-header">
+                        
+
+                            <div class="posted-date">june 18</div>
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-4 half">
+                        <figure>
+                            
+                        </figure>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-5 half">
+                        <figure>
+                       
+                        </figure>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-6 half">
+                        <figure>
+                            
+                        </figure>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-7">
+                        <figure>
+                            <a href="#"><img src="{% static "images/Auto photobooth.jpeg" %}"" alt=""></a>
+                        </figure>
+
+                        <header class="entry-header">
+                          
+
+                            <div class="posted-date">may 11</div>
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-8">
+                        <figure>
+                            <a href="#"><img src="{% static "images/food.jpeg" %}"" alt="1"></a>
+                        </figure>
+
+                        <header class="entry-header">
+                         
+
+                            <div class="posted-date">August 25</div>
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-9">
+                        <figure>
+                            <a href="#"><img src="{% static "images/vintage.jpeg" %}"" alt=""></a>
+                        </figure>
+
+                        <header class="entry-header">
+                        
+
+                            <div class="posted-date">August 28</div>
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-10 half">
+                        <figure>
+                           
+                        </figure>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-11 half">
+                        <figure>
+                           
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="homepage-next-events">
+    <div class="container">
+        <div class="row">
+            <div class="next-events-section-header">
+                <h2 class="entry-title">Additional Services</h2>
+                <p>Enhance your event with our extra touches, designed to make your experience even more memorable.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="next-event-wrap">
+                    <figure>
+                        <a href="#"><img src="{% static "images/next1.jpg" %}"" alt="1"></a>
+
+                        <div class="event-rating">8.9</div>
+                    </figure>
+
+                    <header class="entry-header">
+                        <h3 class="entry-title">Capture the moment</h3>
+
+                        <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                    </header>
+
+                    <div class="entry-content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, pariatur asperiores. Odit, quae! Pariatur itaque recusandae, nostrum sed suscipit laudantium harum ducimus nemo sequi facere, accusamus, dolorem tenetur natus quo..</p>
+                    </div>
+
+                    <footer class="entry-footer">
+                        <a href="#">But</a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="next-event-wrap">
+                    <figure>
+                        <a href="#"><img src="{% static "images/next1.jpg" %}"" alt="1"></a>
+
+                        <div class="event-rating">7.9</div>
+                    </figure>
+
+                    <header class="entry-header">
+                        <h3 class="entry-title">Costume Designing</h3>
+
+                        <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                    </header>
+
+                    <div class="entry-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus similique exercitationem dicta doloremque? Impedit hic sapiente culpa odit, fugiat dolorum eius minus soluta nam beatae harum eaque assumenda eligendi itaque!</p>
+                    </div>
+
+                    <footer class="entry-footer">
+                        <a href="#">Buy </a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="next-event-wrap">
+                    <figure>
+                        <a href="#"><img src="{% static "images/next1.jpg" %}"" alt="1"></a>
+
+                        <div class="event-rating">9.9</div>
+                    </figure>
+
+                    <header class="entry-header">
+                        <h3 class="entry-title">Bridal Cars</h3>
+
+                        <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                    </header>
+
+                    < class="entry-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quas quo soluta similique ut, fuga culpa facilis eaque aspernatur repudiandae sapiente pariatur fugiat fugit ipsam nulla id aperiam deleniti voluptas?</p>
+                    </div>
+
+                    <footer class="entry-footer">
+                        <a href="#">Buy</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="homepage-regional-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="regional-events-heading entry-header flex flex-wrap justify-content-between align-items-center">
+                    <h2 class="entry-title">Events in Planers</h2>
+
+                    <div class="select-location">
+                        <select>
+                            <option>Kerala</option>
+                            <option>Karnadaka</option>
+                            <option>Tamilnadu</option>
+                        </select>
+                        <div class="container">
+                            <div class="row">
+                                <div class="next-events-section-header">
+                                    <h2 class="entry-title">Additional Services</h2>
+                                    <p>Enhance your event with our extra touches, designed to make your experience even more memorable.</p>
+                                </div>
+                            </div>
+                    
+                            <div class="row servi">
+                                <div class="col-12 col-sm-6 col-md-4">
+                                    <div class="next-event-wrap">
+                                        
+                    
+                                        <header class="entry-header">
+                                            <h3 class="entry-title">Capturing Moments</h3>
+                    
+                                        </header>
+                                        <figure>
+                                            <a href="#"><img id="eve" src="{% static "images/Camera Sticker Cartoon Camera Sticker Camera Cute Camera Sticker Sticker - Etsy.jpeg" %}" alt="1"></a>
+                    
+                                            
+                                        </figure>
+                                        
+                    
+                                        
+                                    </div>
+                                </div>
+                    
+                                <div class="col-12 col-sm-6 col-md-4">
+                                    <div class="next-event-wrap">
+                                       
+                    
+                                        <header class="entry-header">
+                                            <h3 class="entry-title">Bridal Costumes</h3>
+                    
+                                            
+                                        </header>
+                                        <figure>
+                                            <a href="#"><img id="wed" src="{% static "images/IMG_3900.jpg" %}" alt=""></a>
+                    
+                                          
+                                        </figure>
+                                       
+                                    </div>
+                                </div>
+                    
+                                <div class="col-12 col-sm-6 col-md-4">
+                                    <div class="next-event-wrap">
+                                        
+                    
+                                        <header class="entry-header">
+                                            <h3 class="entry-title">Bridal Cars</h3>
+                    
+                                           
+                                        </header>
+                    
+                                        
+                                        <figure>
+                                            <a href="#"><img id="car" src="{% static "images/IMG_3902.PNG" %}" alt=""></a>
+                    
+                                            
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </header>
+
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter-subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="entry-header">
+                    <h2 class="entry-title">Subscribe to our newsletter to get the latest trends & news</h2>
+                    <p>Join our database NOW!</p>
+                </header>
+
+                <div class="newsletter-form">
+                    <form method="POST" class="flex flex-wrap justify-content-center align-items-center" action='{% url "success" %}'>
+                        {% csrf_token %}
+                        <div class="col-md-12 col-lg-3">
+                            <input type="text" placeholder="Name" name="name">
+                        </div>
+
+                        <div class="col-md-12 col-lg-6">
+                            <input type="email" placeholder="Your e-mail" name="email">
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <input type="text" placeholder="subject" name="text">
+                        </div>
+
+                        <div class="col-md-12 col-lg-3">
+                           <input class="btn gradient-bg"  type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <figure class="footer-logo">
+                    <a href="#"><img src="{% static "images/IMG_5027.jpg" %}"" alt="logo"></a>
+                </figure>
+
+                <nav class="footer-navigation">
+                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Events</a></li>
+                        
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+                <div id="footer" class="footer-social">
+                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="back-to-top flex justify-content-center align-items-center">
+    <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+</div>
+
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script type='text/javascript' src='js/swiper.min.js'></script>
+<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+<script type='text/javascript' src='js/circle-progress.min.js'></script>
+<script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>
